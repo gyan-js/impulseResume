@@ -1,0 +1,116 @@
+html, body{
+    overflow-x: hidden;
+    overflow-y: visible;
+    height: 100%;
+}
+html{
+    overflow-y: hidden;
+}
+
+#header{
+    margin-top: none;
+   /* background: #0f0f;*/
+    height: 100px;
+    width: 100%;
+    
+    
+}
+
+
+#header .container{
+ /*background: #000;*/
+ max-width: 100%;
+ height: 100%;
+}
+
+#header .container .logo{
+    margin-left: 0;
+   background: #fff;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#header .container .login{
+    width: 30%;
+    height: 100%;
+    /*background: #000;*/
+    margin-left: 70%;
+    margin-top: 0;
+    transform: translateY(-100%);
+    display: flex;
+    justify-content: center;
+}
+
+#header .container .login button{
+    height: 50px;
+    width: 130px;
+    margin-top: 25px;
+    color: #3EB489;
+    outline: none;
+    border: 2px #3EB489 solid;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+}
+
+button:hover{
+    text-decoration: underline;
+}
+
+
+
+img {
+transform: translateY(-25%);
+margin-left: 60px;
+
+}
+
+/**************************MAIN*******************/
+
+.main{
+    display: block;
+  height: 1000000px;
+    background-color: #70ffcb;
+    margin-left: 0;
+}
+
+.main .visual-welcome-background{
+    
+    width: 100%;
+    height: 50px;
+    background: #fb0;
+    height: 560px;
+}
+
+.main .visual-welcome-background .container{
+    max-width: 1160px;
+    width: 100%;
+    height: 50px;
+    background: #f02;
+    height: 560px;
+}
+.main .visual-welcome-background .container .slime-caption{
+    margin-top: 20px;
+    max-width: 1160px;
+    width: 100%;
+    height: 50px;
+    background: #f0f;
+    height: 150px;
+}
+
+
+@media (max-width: 400px) {
+    img{
+        width: 300px;
+       height: 300px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+}
+
+
+
