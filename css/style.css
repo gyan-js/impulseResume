@@ -1,3 +1,7 @@
+*{
+    list-style: none;
+}
+
 html, body{
     overflow-x: hidden;
     overflow-y: visible;
@@ -46,8 +50,9 @@ html{
 }
 
 #header .container .login button{
-    height: 50px;
+    height: 40px;
     width: 130px;
+    
     margin-top: 25px;
     color: #3EB489;
     outline: none;
@@ -72,25 +77,29 @@ margin-left: 60px;
 /**************************MAIN*******************/
 
 .main{
+    margin-top: 10px;
     display: block;
   height: 1000000px;
-    background-color: #70ffcb;
+    background-color: #FFF;
     margin-left: 0;
 }
 
 .main .visual-welcome-background{
     
     width: 100%;
-    height: 50px;
-    background: #fb0;
+    height:500px !important;
+    /*background: #fb0;*/
     height: 560px;
+    background-color: #5874ff;
+
+    opacity:1.5;
 }
 
 .main .visual-welcome-background .container{
     max-width: 1160px;
     width: 100%;
     height: 50px;
-    background: #f02;
+    /*background: #f02;*/
     height: 560px;
 }
 .main .visual-welcome-background .container .slime-caption{
@@ -98,19 +107,132 @@ margin-left: 60px;
     max-width: 1160px;
     width: 100%;
     height: 50px;
-    background: #f0f;
+   /* background: #f0f;*/
     height: 150px;
 }
 
 
+.button-create-cv-mobile {
+    background-color: #07b045 !important;
+    color: white !important;
+    width: 600px !important;
+    margin-left: 0px !important;
+    height: 50px;
+    padding-top: 17px;
+}
+
+
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+.bold {
+    font-family: "avenir-bold", 'Montserrat';
+    font-weight: bold !important;  
+}
+
+h1{
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+
+
+
+a {
+    background-color: transparent;
+}
+.cyco {
+    color: #337ab7;
+    text-decoration: none;
+}
+.cyco {
+    background-color: transparent;
+}
+
+.cyco{
+    display: flex;
+    justify-items: center;
+    width: 40px;
+}
+
+.icon-btn-cv {
+    position: absolute;
+    right: 1px;
+    top: -30%;
+    transform: scale(0.6)
+    
+}
+
+.white{
+    color: #FFF;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image-cv{
+    float: right;
+    width: 37%;
+    height: 50%;
+    margin: auto;
+    margin-left: 156px;
+}
+
+
+
+button.button-create-cv-mobile{
+    margin-top: 20px;
+    outline: none;
+    border: none;
+}
+
+
+h1.new-title{
+    font-weight: 500;
+}
+
+h2.hide-mobile{
+    font-size: 20px;
+}
+
 @media (max-width: 400px) {
-    img{
+    .applicationLogo{
         width: 300px;
        height: 300px;
         margin-left: 10px;
-        margin-top: 20px;
+        margin-top:10px;
     }
-}
+
+    button.loginButtonID{
+        margin-top: 40px !important;
+    }
+
+  .new-title{
+      font-size: 30px;
+  }
+
+   h2{
+       display: none;
+   }
+
+   .m-16{
+       margin-left: 55px;
+   }
+   
+   ul{
+       transform: translateX(-20%
+       );
+   }
+
+   button.button-create-cv-mobile{
+    width: 250px !important;
+    margin-left: 30px !important;
+   }
+
+   }
+
+
+
 
 
 
