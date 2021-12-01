@@ -133,6 +133,89 @@ margin-left: 60px;
     color: #7e8085;
 }
 
+.howto .howto-steps{
+   
+        display: flex;
+        margin: 0 -20px;
+        margin-top: 7%;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+}
+
+
+
+.howto .card {
+    background: #fff;
+    box-shadow: 0 2px 9px rgb(0 0 0 / 10%);
+    width: 390px;
+    margin-left: 0;
+}
+
+.howto .card .card-header{
+    height: 127px;
+}
+
+.howto .card .card-header img{
+    width: 390px;
+    margin-left: -5.5%;
+    margin-top: 5%;
+    
+}
+
+.howto .howto-steps-item .card-title-it {
+    display: flex;
+    padding: 16px 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.howto .howto-steps .number {
+    flex: 0 0 47px;
+    width: 47px;
+    height: 47px;
+    margin: 0;
+    font-size: 16px;
+    margin-right: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #6b79fb;
+}
+
+
+element.style {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.howto .howto-cta a {
+    display: inline-flex;
+    margin: 0 auto;
+}
+.btn-green-it {
+    border-radius: 6.5px;
+    background-color: #228B22;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.text-btn-green-it {
+    font-family: Avenir-Heavy, sans-serif;
+    font-size: 18.2px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.card-text p{
+    margin-left: 5%;
+}
+
 .main .visual-welcome-background .container{
     max-width: 1160px;
     width: 100%;

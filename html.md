@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image" href="assets/appIcon-titleBar.png">
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -148,11 +147,11 @@
               </div>
 
               <div class="howto-cta text-center">
-                <button
+                <a
                   href="https://app.altresume.com"
                   class="btn btn-green-it text-uppercase text-btn-green-it"
                   style="padding-top: 11px; padding-bottom: 11px"
-                  >Create my CV</button
+                  >Create my CV</a
                 >
               </div>
             </div>
